@@ -1,0 +1,43 @@
+<!doctype html>
+
+
+<head>
+  <title>The Profile Page</title>
+<!-- CSS Pulled In -->
+  <link rel="stylesheet" href="Scan-CSS.css">
+<!---JS Pulled In-->
+  <script type="text/javascript" src="Scan.js"></script>  
+<!-- Jquery Pulled IN-->
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropbtn"> <img id ="Fucking_Profile" img src="generic-profile.png"> </button>
+        <div class="dropdown-content">
+          <a href="ProfilePage.html">Profile</a>
+          <a href="Recipes.html">Recipes</a>
+          <a href="Scanner.html">Scan</a>
+        </div>
+      </div>
+<!---Camera-->
+      <main id="camera">
+        <!--Camera View-->  
+        <video id="Camera--View" autoplay playsinline></video>
+        <!--Camera Sensor-->
+          <canvas id ="Camera--Sensor"></canvas>
+        <!--Camera Output-->  
+        <img src="//:0" alt="Whatever" id="Camera--Output">
+        <!--Camera Trigger-->
+        <button id="Camera--Trigger"> Take a Photo</button>
+    </main>
+
+</body>
+
+
+
+
+
+</html>
